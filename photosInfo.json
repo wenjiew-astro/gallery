@@ -22,5 +22,41 @@
         0
       ]
     }
+  },
+  {
+    "dirName": "西湖",
+    "fileName": "DSC04614.JPG",
+    "iconID": "6000.4000 DSC04614.JPG",
+    "extension": {
+      "size": 64,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "dirName": "西湖",
+    "fileName": "DSC05860.JPG",
+    "iconID": "6000.4000 DSC05860.JPG",
+    "extension": {
+      "size": 64,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "dirName": "西湖",
+    "fileName": "微信图片_20240521173153.jpg",
+    "iconID": "3376.6000 微信图片_20240521173153.jpg",
+    "extension": {
+      "size": 64,
+      "offset": [
+        0,
+        0
+      ]
+    }
   }
 ]
