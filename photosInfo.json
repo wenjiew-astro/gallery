@@ -1,30 +1,6 @@
 [
   {
-    "dirName": "凤凰古城",
-    "fileName": "20250603203533.jpg",
-    "iconID": "1707.1280 20250603203533.jpg",
-    "extension": {
-      "size": 64,
-      "offset": [
-        0,
-        0
-      ]
-    }
-  },
-  {
-    "dirName": "凤凰古城",
-    "fileName": "DSC02249.png",
-    "iconID": "3376.6000 DSC02249.png",
-    "extension": {
-      "size": 64,
-      "offset": [
-        0,
-        0
-      ]
-    }
-  },
-  {
-    "dirName": "西湖",
+    "dirName": "杭州-西湖",
     "fileName": "DSC04614.JPG",
     "iconID": "6000.4000 DSC04614.JPG",
     "extension": {
@@ -36,7 +12,7 @@
     }
   },
   {
-    "dirName": "西湖",
+    "dirName": "杭州-西湖",
     "fileName": "DSC05860.JPG",
     "iconID": "6000.4000 DSC05860.JPG",
     "extension": {
@@ -48,9 +24,69 @@
     }
   },
   {
-    "dirName": "西湖",
+    "dirName": "杭州-西湖",
     "fileName": "微信图片_20240521173153.jpg",
     "iconID": "3376.6000 微信图片_20240521173153.jpg",
+    "extension": {
+      "size": 64,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "dirName": "滇西-凤凰古城",
+    "fileName": "20250603203533.jpg",
+    "iconID": "1707.1280 20250603203533.jpg",
+    "extension": {
+      "size": 64,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "dirName": "滇西-凤凰古城",
+    "fileName": "DSC02249.png",
+    "iconID": "3376.6000 DSC02249.png",
+    "extension": {
+      "size": 64,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "dirName": "西安-大雁塔",
+    "fileName": "微信图片_20240822135907.jpg",
+    "iconID": "9504.6336 微信图片_20240822135907.jpg",
+    "extension": {
+      "size": 64,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "dirName": "西安-大雁塔",
+    "fileName": "微信图片_20240822135920.jpg",
+    "iconID": "9504.6336 微信图片_20240822135920.jpg",
+    "extension": {
+      "size": 64,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "dirName": "西安-大雁塔",
+    "fileName": "微信图片_20240822141335.jpg",
+    "iconID": "9504.6336 微信图片_20240822141335.jpg",
     "extension": {
       "size": 64,
       "offset": [
