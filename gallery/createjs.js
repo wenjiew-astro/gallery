@@ -46,6 +46,7 @@ function createPlotIconsData() {
     allPlotGroups = JSON.parse(fs.readFileSync(plotGroupJsonFile, 'utf8'));
   }
 
+  // 只遍历相册根目录
   const rootDir = path.join(__dirname, rootPath);
   if (!fs.existsSync(rootDir)) {
     console.error(`根目录不存在：${rootDir}`);
@@ -61,13 +62,13 @@ function createPlotIconsData() {
       const ext = path.extname(subfileName).toLowerCase();
       if (!IMAGE_EXTS.has(ext)) return; // 只处理图片
 
+      // 如果已存在可跳过（按需打开）
+      if (allPlots.find(o => o.fileName === subfileName && o.dirName === dirName)) return;
+
       const imgPath = path.join(dirFull, subfileName);
 
       try {
-        // ⭐ 核心：先读 Buffer，再传给 image-size（避免中文/特殊字符路径导致的读取问题）
-        const buf = fs.readFileSync(imgPath);
-        const info = imageSize(buf);
-
+        const info = imageSize(imgPath); // 这里已兼容函数获取
         const plot = new Photo();
         plot.dirName = dirName;
         plot.fileName = subfileName;

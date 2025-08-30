@@ -63,7 +63,7 @@ function createPlotIconsData() {
       if (!IMAGE_EXTS.has(ext)) return; // 只处理图片
 
       // 如果已存在可跳过（按需打开）
-      // if (allPlots.find(o => o.fileName === subfileName && o.dirName === dirName)) return;
+      if (allPlots.find(o => o.fileName === subfileName && o.dirName === dirName)) return;
 
       const imgPath = path.join(dirFull, subfileName);
 
